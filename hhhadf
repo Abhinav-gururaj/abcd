@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8"/>
+<title>5C3</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div class="header">
+    <div class="header-logo">Akhil Kumar
+
+    </div>
+    <div class="header-list">
+        <ul>
+        <li><a href="about.html" target="blank">About</a></li>
+        <li><a href="#lesson-id">Lessons</a></li>
+        <li><a href="#contact-id">Contact us</a></li>
+        </ul>
+    </div>
+</div>
+<hr size="5px" noshade>
+
+
+<div class="main">
+    <div class="copy-container">
+        <h1>HELLO WORLD<span>.</span></h1>
+        <h2>Let's learn to code</h2>
+    </div>
+    <section id="lesson-id">
+    <div class="contents">
+        <h3>Lessons</h3>
+        <div class="contents-item">
+            <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg"></img>
+            <p>HTML & CSS</p>
+        </div>
+        <div class="contents-item">
+            <img src=" https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+            <p> PHP</p>
+        </div>
+        <div class="contents-item">
+            <img src=" https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+            <p> Ruby</p>
+        </div>
+        <div class="contents-item">
+            <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+            <p>  Swift</p>
+        </div>
+    </div>
+    </section>
+    <hr size="5px" noshade>
+
+    <section id="contact-id">
+    <div class="contact-form">
+        <h3 class="section-title">Contact us</h3>
+        <p>Email (Required)</p>
+        <input type="text" name="email"></input>
+
+        <p>Message (Required)</p>
+        <textarea rows = "5" cols = "50" name = "message">
+        </textarea>
+        <p>* Required fields must be filled</p>
+        <input type="submit" class=" contact-submit" value="send"/>
+    </div>
+</div>
+</section>
+<hr size="5px" noshade>
+<div class="footer">
+    <div class="footer-logo">
+     Akhil Komati
+    </div>
+   <div class="footer-list">
+        <ul>
+        <li>About</li>
+        <li>Jobs</li>
+        <li>Contact us</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
